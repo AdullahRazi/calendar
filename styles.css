@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    line-height: inherit;
+    text-align: center;
+}
+.header{
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+    padding: 1%;
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive;
+}
+.logo{
+    margin:8px;
+}
+td,th{
+    border: 1.5px solid rgb(216, 216, 216);
+}
+table{
+    border-collapse: collapse;
+    font-size: 1.5vw;
+    width:60%;
+    margin-left:20% ;
+}
+td,th{
+    padding:2%;
+    text-align: center;
+    width:14%;
+}
+.calendar-header{
+    background-color: rgb(246, 246, 246);
+    font-size: 2vw;
+}
+.month-names{
+    
+}
+.full-calendar{
+    box-sizing: content-box;
+    width:70%;
+    margin-top:10vh;
+}
+.carousel{
+    box-sizing: content-box;
+    height:60vh;
+}
+
+.carousel-control-prev-icon{
+    background: url("left-arrow.png");
+    width: 24px;
+    height:24px;
+}
+.carousel-control-next-icon {
+    background: url("right-arrow.png");
+    width:24px;
+    height:24px;
+}
+
+td:hover{
+    background-color: rgb(8, 181, 220);
+    cursor: pointer;
+}
+.tasks{
+    background-color: #08b5dc;
+    font-family:'Roboto', sans-serif;
+    width:30% ;
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100vh;
+    border-left: 1px solid black;
+    overflow: scroll;
+}
+.tasks-header{
+    border-bottom:5px solid black ;
+    padding:10px;
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+.tasks-body{
+    padding:5px;
+}
+.tasks-list{
+    list-style: circle;
+}
+.tasks-elem{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: left;
+    position: relative;
+}
+.tasks-elem p{
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5rem;
+    width: 90%;
+}
+.cancel-icon{
+    position:absolute;
+    right:3px;
+    top:3px;
+}
+.cancel-icon:hover{
+    cursor: pointer;
+}
+/* 
+utility classes */
+.blue-background{
+    background-color: #08b5dc;
+}
+.developer-name{
+    position: absolute;
+    bottom:10px;
+    left:30vw;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
